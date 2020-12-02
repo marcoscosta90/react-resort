@@ -1,7 +1,7 @@
   
 import React, { Component } from "react";
 import items from "./data";
-import Client from "./Contentful";
+//import Client from "./Contentful";
 
 const RoomContext = React.createContext();
 
@@ -11,7 +11,6 @@ export default class RoomProvider extends Component {
     sortedRooms: [],
     featuredRooms: [],
     loading: true,
-    //
     type: "all",
     capacity: 1,
     price: 0,
